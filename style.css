@@ -1,0 +1,145 @@
+/* reset css */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* font */
+
+body h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 28px;
+    color: black;
+}
+
+body h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    color: black;
+}
+
+/* tirando configurações padrões */
+body a,
+p,
+li {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+
+/* Header */
+
+#header {
+    background-color: whitesmoke;
+    -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+
+}
+
+.flex-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    width: 1366px;
+    margin: 0 auto;
+}
+
+/* Logotipo */
+
+#logotipo {
+    padding: 0px 30px;
+    font-size: 28px;
+}
+
+/* links header */
+
+nav {
+    display: flex;
+}
+
+nav li {
+    display: inline;
+    padding: 0 20px;
+}
+
+/* Section */
+
+#esportes {
+    background-color: rgba(0, 128, 0, 0.10);
+}
+
+#economia{
+    background-color: rgba(255, 255, 0, 0.1);
+}
+
+#politica{
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+#tecnologia{
+    background-color: rgba(211, 246, 229, 0.414);
+
+}
+
+#sao-paulo{
+    background-color: rgba(134, 154, 241, 0.2);
+}
+.width-section {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+/* Títulos de matéria */
+
+.titulos {
+    display: flex;
+    justify-content: center;
+}
+
+.titulos h2 {
+    margin: 20px;
+}
+
+/* Artigos */
+
+.flex-article {
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+}
+
+.flex-article article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 25%;
+}
+
+.flex-article article img {
+    height: 200px;
+}
+
+.flex-article article h3 {
+    padding: 10px;
+
+}
+
+.flex-article article a {
+    background-color: blue;
+    padding: 8px;
+    color: white;
+    border-radius: 5px;
+    transition: (200);
+    margin-bottom: 10px;
+}
+
+.flex-article article a:hover {
+    transform: scale(1.1);
+}
